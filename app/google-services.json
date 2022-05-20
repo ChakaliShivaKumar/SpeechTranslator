@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "99167989526",
+    "project_id": "omnia-captshiva007",
+    "storage_bucket": "omnia-captshiva007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99167989526:android:2f87a922eecab57f136a37",
+        "android_client_info": {
+          "package_name": "com.example.oneplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99167989526-qm0r40bqou71sdlnit3o75ij5msdgp4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oneplus",
+            "certificate_hash": "165ddb32b0f4c0667a0cec22cacfc96caf657c36"
+          }
+        },
+        {
+          "client_id": "99167989526-d4rmn1bi35rrejectmgmhptsj61cbbd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4AiYoyRR9lUcv3i1ykn_GZeh4ROOjVLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99167989526-d4rmn1bi35rrejectmgmhptsj61cbbd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_title"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="261dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="112dp"
+            android:layout_height="35dp"
+            android:text="Person ONE"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/spinnerOne"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:dropDownSelector="@color/teal_200"
+            android:scrollbarSize="10dp"
+            android:scrollbarThumbHorizontal="@color/white"
+            android:scrollbarThumbVertical="@color/white" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="112dp"
+            android:layout_height="39dp"
+            android:text="Person TWO"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/spinnerTwo"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:dropDownSelector="@color/teal_200"
+            android:scrollbarSize="10dp"
+            android:scrollbarThumbHorizontal="@color/white"
+            android:scrollbarThumbVertical="@color/white" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/Student"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backg1"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/txtResult1"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:textColor="#F8F6F6"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtResult1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="getSpeechInput"
+        app:srcCompat="@android:drawable/presence_audio_busy" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:textColor="#F8F6F6"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:baselineAlignBottom="true"
+        android:onClick="getSpeechInput2"
+        app:srcCompat="@android:drawable/presence_audio_away" />
+
+</LinearLayout>

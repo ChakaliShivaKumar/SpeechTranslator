@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Speech Translator</string>
+    <string name="tv_title">Select Your Languages</string>
+    <string name="Student">By Student Of Chaitanya Bharathi Institute Of Technology</string>
+    <string-array name="spinnerTwo">
+        <item>"ENGLISH"</item>
+        <item>"TELUGU"</item>
+        <item>"HINDI"</item>
+
+    </string-array>
+    <string-array name="spinnerOne">
+        <item>"ENGLISH"</item>
+        <item>"TELUGU"</item>
+        <item>"HINDI"</item>
+
+    </string-array>
+</resources>
